@@ -5,8 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagination Cards</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main>
+        <div class="cards-container">
+            <div class="card-1">
+                <div>
+                    <img class="card-image" src="images/person1.jpg" alt="">
+                    <div class="card-content">
+                        <h2 class="card-name">Card 01</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellendus facere nihil deserunt reprehenderit distinctio maxime ea iusto, beatae sed?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-2">
+                <img class="card-image" src="images/person2.jpg" alt="">
+                <div class="card-content">
+                    <h2 class="card-name">Card 02</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellendus facere nihil deserunt reprehenderit distinctio maxime ea iusto, beatae sed?</p>
+                </div>
+            </div>
+            <div class="card-3">
+                <img class="card-image" src="images/person3.jpg" alt="">
+                <div class="card-content">
+                    <h2 class="card-name">Card 03</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellendus facere nihil deserunt reprehenderit distinctio maxime ea iusto, beatae sed?</p>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <button id="prev" class="navigate">Prev</button>
+            <button id="page-1" class="single-char option">1</button>
+            <button id="page-2" class="single-char option show">2</button>
+            <button id="page-3" class="single-char option show">3</button>
+            <button id="page-4" class="single-char option show">4</button>
+            <button id="page-5" class="single-char option show">5</button>
+            <button id="more" class="multiple-chars option">...</button>
+            <button id="page-6" class="single-char option hide">6</button>
+            <button id="page-7" class="single-char option hide">7</button>
+            <button id="page-8" class="single-char option hide">8</button>
+            <button id="page-9" class="single-char option hide">9</button>            
+            <button id="page-10" class="multiple-chars option">10</button>
+            
+            <button id="next" class="navigate active">Next</button>
+        </div>
+    </main> 
+    <!---->
+    <script src="pages.js"></script>   
 </body>
 </html>
